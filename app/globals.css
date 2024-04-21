@@ -31,3 +31,18 @@ body {
     text-wrap: balance;
   }
 }
+
+::backdrop {
+  background-image: linear-gradient(-45deg, #7289da, rebeccapurple);
+  opacity: 0.5;
+}
+
+input[type="checkbox"] {
+  @apply w-5 h-5;
+  accent-color: #18191c;
+}
+
+input[type="radio"] {
+  @apply size-4;
+  accent-color: #18191c;
+}

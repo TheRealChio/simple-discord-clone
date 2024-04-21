@@ -13,6 +13,14 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "discord-main": "#7289da",
+        "discord-gray-100": "#40444B",
+        "discord-gray-200": "#36393F",
+        "discord-gray-300": "#2f3136",
+        "discord-gray-400": "#202225",
+        "discord-gray-500": "#18191C",
+      },
     },
   },
   plugins: [],
